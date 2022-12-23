@@ -3,9 +3,8 @@ package main
 import (
 	"net/http"
 
-	"internal/infrastructure/handlers/handlers.go"
-
 	"github.com/gin-gonic/gin"
+	"go.mod/internal/infrastructure/handlers"
 )
 
 func main() {
