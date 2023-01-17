@@ -16,5 +16,6 @@ func main() {
 	})
 
 	router.GET("/hola", handlers.Get)
+	router.POST("v1/items", handlers.PostItem)
 	router.Run()
 }
