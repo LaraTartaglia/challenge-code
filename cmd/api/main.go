@@ -32,7 +32,7 @@ func main() {
 		panic("error connecting to item handler: " + err.Error())
 	}
 
-	router.GET("v1/item/:id", itemHandler.Get)
+	router.GET("v1/item/:id", itemHandler.GetItems)
 	router.POST("v1/items", itemHandler.PostItem)
 
 	router.Run()
